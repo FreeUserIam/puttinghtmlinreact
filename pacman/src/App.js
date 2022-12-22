@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import OnboardModal from './components/OnboardModal';
-import { GlobalContextProvider } from './context';
+import { GlobalContextProvider } from './context/index';
 import PacmanGame from './pages/PacmanGame';
 
 const App = () => {
