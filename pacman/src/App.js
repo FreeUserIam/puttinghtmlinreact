@@ -1,12 +1,23 @@
 import React, { useEffect, useState } from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import OnboardModal from './components/OnboardModal';
+import { GlobalContextProvider } from './context';
+import PacmanGame from './pages/PacmanGame';
 
 const App = () => {
-  const pacmanHtml = "files/pacman.html";
   return (
-    <div className="App">
-      <iframe class="pacman-iframe" title="pacman" src={pacmanHtml} />
-    </div>
+    <BrowserRouter>
+      <GlobalContextProvider>
+        <OnboardModal />
+        <div className="App">
+          {/* <p>Hi i am app.js</p> */}
+          <PacmanGame />
+        </div>
+      </GlobalContextProvider >
+    </BrowserRouter >
+
   );
 
   // let[htmlFileString, setHtmlFileString] = useState();

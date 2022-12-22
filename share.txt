@@ -1,1 +1,8 @@
 https://stackoverflow.com/questions/52266892/meaning-of-src-public-and-build-folders
+npm install --save-dev "hardhat@^2.12.0" "@nomicfoundation/hardhat-toolbox@^2.0.0"
+
+https://github.com/adrianhajdin/project_web3_battle_game/tree/main
+
+
+what is web 3
+The web is the infrastructure of the internet. It’s a communication, collaboration, and commerce platform connecting people worldwide. Web applications are how we interact with the web. Web 3 is the latest web iteration, and it’s powered by blockchain technology. With blockchain, each transaction is recorded on a public ledger that everyone can see. This transparency makes it very difficult to cheat or defraud someone on the network
